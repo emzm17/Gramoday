@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/business">
+
+    <fragment
+        android:id="@+id/business"
+        android:name="com.example.gramoday.fragment.Business"
+        android:label="fragment_business"
+        tools:layout="@layout/fragment_business">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="example.com/gramoday" />
+    </fragment>
+    <fragment
+        android:id="@+id/review"
+        android:name="com.example.gramoday.fragment.Review"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+</navigation>

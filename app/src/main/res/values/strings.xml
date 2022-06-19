@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gramoday</string>
+    <string name="ranchi_jharkhand">Ranchi, Jharkhand</string>
+    <string name="speaks_english">Speaks English</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="commission_agent">Commission Agent</string>
+    <string name="market_name">Market Name</string>
+    <string name="yeshwanthapura_mandi">Yeshwanthapura Mandi</string>
+    <string name="mm_trading_comapny_and_haji_dawood_usman_and_sons">MM Trading Comapny and Haji Dawood Usman and sons</string>
+    <string name="potato_mandi_rates">Potato Mandi Rates</string>
+    <string name="yeshwanthapura_mandi_bangalore_ka_15_06_2022">Yeshwanthapura Mandi, Bangalore, KA 15/06/2022</string>
+    <string name="rs_20_21_1_kg">Rs 20-21/1 Kg</string>
+    <string name="yeshwanthapura_mandi_bangalore_ka">Yeshwanthapura,Mandi,Bangalore,KA</string>
+    <string name="_18_06_22">18-06-22</string>
+</resources>

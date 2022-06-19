@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Business">
+
+
+  <LinearLayout
+      android:id="@+id/linearlview"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+
+      <TextView
+          android:textColor="@color/teal_500"
+          android:textStyle="bold"
+          android:textSize="20sp"
+          android:text="@string/commission_agent"
+          android:id="@+id/commissionAgent"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="wrap_content"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+          <TextView
+              android:text="@string/market_name"
+              android:textColor="@color/black"
+              android:layout_width="wrap_content"
+              android:textStyle="normal"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:textColor="@color/black"
+              android:layout_marginStart="10dp"
+              android:textStyle="bold"
+              android:id="@+id/tvMname"
+              android:text="@string/yeshwanthapura_mandi"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="wrap_content"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+          <TextView
+              android:text="Firm Name"
+              android:textColor="@color/black"
+              android:layout_width="wrap_content"
+              android:textStyle="normal"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:textColor="@color/black"
+              android:layout_marginStart="10dp"
+              android:textStyle="bold"
+              android:id="@+id/tvFname"
+              android:text="@string/mm_trading_comapny_and_haji_dawood_usman_and_sons"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="wrap_content"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+          <TextView
+              android:text="Shop Name"
+              android:textColor="@color/black"
+              android:layout_width="wrap_content"
+              android:textStyle="normal"
+              android:layout_height="wrap_content"/>
+          <TextView
+              android:textColor="@color/black"
+              android:layout_marginStart="10dp"
+              android:textStyle="bold"
+              android:id="@+id/tvSname"
+              android:text="200"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+
+  </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/linearlview"
+        android:background="@color/colorGrey"
+        android:text="Products"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rcview"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginTop="5dp"
+        tools:ignore="NotSibling" />
+</RelativeLayout>
